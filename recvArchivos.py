@@ -5,9 +5,10 @@ import os
 if __name__ == '__main__': 
 	# Define la direccion ip del servidor al que se conectara
 	# Es necesario modificarla para conectarse al servidor
-	host = '192.168.1.210'
+	# Poner la direccion del servidor entre las comillas simples
+	host = ''
 	# Define el puerto en el que se conecta al servidor, debe de ser el mismo configurado en la aplicacion que envia los archivos
-	# en este caso, es 8080
+	# en este caso, el ejecutable se ejecuta por defecto en el puerto 8080
 	port = 8080
 
 	# La aplicacion esta pensada para mantenerse en ejecucion, por lo que todo se encuentra en un ciclo infinito
