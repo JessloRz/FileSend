@@ -76,7 +76,7 @@ int main()
 
     // Solicita el nombre del directorio que se va a escanear
     // Debe ser un directorio que se encuentre en la misma carpeta que el ejecutable
-    cout << "Escribe el nombre del directorio que deseas escanear (debe estar en la misma ubicacion del ejecutable): " << endl;
+    cout << "Escriba el nombre del directorio que desea escanear (debe estar en la misma ubicacion del ejecutable): " << endl;
     // El valor que se ingrese se guarda en la variable input folder
     cin >> inputFolder;
     filesystem::path scanFolder = filesystem::current_path() / inputFolder / "";
