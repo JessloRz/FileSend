@@ -19,3 +19,7 @@ Para el cliente, se deberá tener instalado Python 3, una vez instalado:<br>
 * Abrir la terminal en esta misma carpeta
 * Dependiendo de la instalación de python, se ejecutará con: <i>py Cliente.py</i> ó <i>python3 Cliente.py</i>
 * Introducir la dirección IP del servidor.
+
+# Planes de actualización
+
+Por el momento solo esta planeado agregar la aplicación servidor en Linux. Probablemente, una opción de descarga para la aplicación cliente que no requiera Python.
