@@ -6,6 +6,7 @@ if __name__ == '__main__':
 	# Define la direccion ip del servidor al que se conectara
 	# Es necesario modificarla para conectarse al servidor
 	# Poner la direccion del servidor entre las comillas simples
+	print("Ingrese la direccion IP del servidor:")
 	host = input()
 	# Define el puerto en el que se conecta al servidor, debe de ser el mismo configurado en la aplicacion que envia los archivos
 	# en este caso, el ejecutable se ejecuta por defecto en el puerto 8080
